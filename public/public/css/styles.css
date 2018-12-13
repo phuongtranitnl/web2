@@ -1,0 +1,527 @@
+/* Đặt ảnh nền cho background
+body {
+
+	background-image: url(../images/green_grass_field-wide.jpg);
+	background-repeat: no-repeat;  
+	background-attachment: fixed;
+}
+
+*/
+
+body {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+/* --------------------------------- Header -------------------------------------------*/
+.navbar-default {
+	border-radius: 0px;
+	border: 1px solid grey;
+	background: #fff;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 999;
+	display: block;
+	background: rgb(182, 211, 255);
+}
+
+.navbar-brand>img {
+	display: inline-block;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	font-size: 20px;
+}
+
+
+
+/*----------------------------------- Suggestions -------------------------*/
+.Suggestions {
+	padding: 50px 0;
+	margin: 10px 0;
+
+
+}
+
+.Suggestions a{
+	text-decoration: none;
+
+	
+}
+
+.title-Suggesstion {
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+
+.content-app:hover {
+	border: 0.5px solid #2979ff;
+	background: #bbdefb;
+
+}
+
+
+.content-app {
+	padding: 15px;
+}
+
+
+/*-------------------------------------Content -------------------------------------*/
+
+
+
+/*------------------------------------- Calendar -----------------------------*/
+.loi-chao {
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 18px;
+	margin-bottom: 10px;
+	color: #fff;
+
+}
+
+.thu {
+	font-size: 20px;
+	padding-left: 20px;
+	color: #0080FF;
+}
+
+.date {
+	padding-left: 20px;
+	font-size: 17px;
+}
+
+
+/*------------------------------------ App list ------------------------------*/
+.background-list {
+	background: rgba(0, 0, 0, 0.8);
+	padding: 40px 0px;
+	border-radius: 12px;
+	margin-bottom: 10px;
+}
+
+.background-list >ul>li:hover  {
+	background: rgba(255, 255, 255, 0.2);
+}
+
+.background-list ul>li {
+	margin: 10px 0;
+}
+
+.background-list >ul>li>a {
+	text-decoration: none;
+	font-size: 18px;
+	color: #fff;
+}
+
+.app {
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	height: 400px;
+}
+
+.app-background {
+	padding: 10px 0px;
+	border-radius: 12px;
+	border-color: #000;
+	border: 1px solid #2196f3;
+} 
+
+.app-background:hover {
+	background: #E0E0E0;
+	border: 1px solid #00c853;
+
+}
+
+.app-icon {
+	padding: 40px;
+	text-align: center;
+}
+
+.name-app {
+	text-align: center;
+	margin-bottom: 5px;
+}
+.name-app a {
+	color: #008EFF;
+	text-decoration: none;
+}
+
+.detail {
+	padding: 0px 10px;
+
+}
+
+.tile-tyle {
+	font-size: 18px;
+	color: #FF9800;
+}
+.description {
+	margin-top: 10px;
+	font-size: 18px;
+	color: #00BCD4;
+}
+
+
+/*-------------------------------------------------Padding --------------------------------------------*/
+.padding {
+	text-align: right;
+	margin: 30px 0px;
+}
+
+.background-p {
+	padding: 10px;
+	background: #673ab7;
+	margin-left: 8px;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 6px;
+
+}
+
+
+/*------------------------------------------- Danh mục ------------------------------------------------*/
+
+.danh-muc .container{
+	background: #fff;
+	border-radius: 6px;
+}
+
+.title-dm {
+	
+	font-size: 2.5em;
+	color: #000;
+	margin-bottom: 25px;
+
+}
+
+.list-dm {
+	list-style: none;
+	padding-left: 0px;
+
+	
+}
+
+.list-dm li>a {
+	font-size: 22px;
+	color: #0067b8;
+	text-decoration: none;
+
+}
+
+.list-dm li>a:hover {
+	color: #4CDA64;
+}
+
+/*---------------------------------------------- other store -------------------------------------------*/
+
+.other-store {
+
+	
+	margin: 30px 0;
+	
+}
+
+
+.other-store .row {
+	
+	background: #1565c0;
+	border-radius: 6px;
+	
+	
+} 
+.title-store {
+	color: #fff;
+	font-size: 25px;
+	margin-top: 6px;
+}
+
+.store {
+	padding: 25px 0px;
+}
+
+.store:hover {
+	background: rgba(255, 255, 255, 0.2);
+
+}
+
+.store a {
+	text-decoration: none;
+}
+
+/*---------------------------------------------- footer ------------------------------------------------*/
+footer {
+	margin-top:  20px;
+	border: 1px solid grey;
+	background: rgb(182, 211, 255);
+}
+
+footer .container {
+	padding: 40px 0px;
+}
+
+.title-footer {
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+
+
+footer li>a {
+	text-decoration: none !important;
+	font-size: 20px; 
+}
+
+
+
+/*------------- float button -----------------------*/
+
+.float-button {
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	background: #2962ff;
+	border: 1px solid #7A7574;
+	color: #fff;
+	padding: 10px 15px;
+}
+
+.float-button:hover {
+	background: #000;
+	color: #fff;
+}
+
+@media(min-width: 320px) and (max-width: 767px) {
+	.float-button {
+		display: none;
+	}
+}
+
+
+/*---------------- Menu --------------------------*/
+.menu-account {
+	padding: 10px;
+	background: rgb(221, 237, 252);
+	width: 400px;
+	right: 0px;
+	position: absolute;
+	display: inline-block;
+	display: none;
+}
+
+.background-menu {
+	
+}
+
+.background-menu >ul {
+	list-style: none;
+	font-size: 20px;
+}
+
+.background-menu >ul >li {
+	/* padding: 5px 20px; */
+}
+
+ul {
+	padding-inline-start: 0px;
+}
+
+.background-menu >ul >li:hover {
+	background: rgb(207, 193, 235);
+}
+
+.background-menu >ul >li>a {
+	text-decoration: none;
+	color: rgb(63, 54, 114);
+	display: block;
+	padding: 5px 10px;
+}
+
+.background-menu li :hover {
+	color: rgb(35, 0, 131);
+}
+/*----------------------------------------------- Css trang tri tiet ------------------------------------------*/
+
+.chitiet-app {
+
+	margin: 25px 0px;
+	padding: 30px 0px;
+
+}
+
+.ten-ung-dung {
+	font-size: 30px;
+}
+
+.icon-app {
+	text-align: center;
+}
+
+
+.title-download {
+	font-size: 35px;
+
+}
+
+.text-free {
+	margin: 15px 0;
+}
+
+.nut-tai-ve {
+
+	font-size: 20px;
+	text-align: center;
+	padding: 10px 40px;
+	background: #1565c0;
+	color: #fff;
+	border-radius: 6px;
+
+
+}
+
+.nut-tai-ve:hover {
+	background: #000;
+}
+
+.title-ct {
+	font-size: 25px;
+
+}
+
+.mota-ungdung {
+	margin: 50px 0px;
+}
+
+.hinh-anh {
+	margin: 20px 0;
+	padding: 40px 0;
+}
+
+.thong-tin-bs {
+	margin: 20px 0px;
+}
+
+.title-bs {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.content-bs {
+
+	margin-bottom: 25px;
+}
+
+.form-control {
+	width: 75%;
+}
+
+/*---------------------------------------------------------- css trang search ----------------------------------------*/
+.search {
+	margin: 50px 0;
+}
+
+.key-search {
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.app-result {
+	text-align: center;
+	padding: 5px;
+	
+}
+
+.app-result >a{
+	text-decoration: none;
+}
+
+.background-result {
+	background: rgba(206, 205, 210, 0.8);
+	padding: 10px;
+}
+
+
+.background-result:hover {
+	background: #bbdefb;
+	padding: 10px;
+}
+
+.total-result {
+	font-size: 25px;
+	margin-bottom: 15px;
+
+}
+
+.imge-resize {
+
+	/*max-width: 120px;*/
+	max-height: 120px;
+}
+
+.name-app-search {
+	font-size: 28px;
+	color: #000;
+	font-weight: bold;
+}
+
+.name-company {
+	font-size: 20px;
+
+}
+
+
+
+
+@media(min-width: 768px) and (max-width: 1000px) {
+	
+
+	.leftbar {
+		display: none;
+	}
+
+	.float-button {
+		display: none;
+	}
+}
+
+
+
+@media(min-width: 320px) and (max-width: 767px) {
+
+	.other-store {
+		display: none;
+	}
+
+	.float-button {
+		display: none;
+	}
+
+	.ten-ung-dung {
+		font-size: 25px;
+	}
+
+	.title-download {
+		font-size: 25px;
+	}
+
+	.icon-app {
+		text-align: left;
+	}
+
+	.icon-app img {
+		width: 80px;
+		height: 80px;
+	}
+
+	.imge-resize {
+		max-height: 64px;
+	}
+
+}
+
+.border {
+	border: 1px solid grey;
+	padding: 20px;
+	margin: 5px;
+}
